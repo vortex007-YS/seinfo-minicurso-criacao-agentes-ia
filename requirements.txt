@@ -1,4 +1,8 @@
+langchain==0.3.27
+langchain-community==0.3.30
 langchain-core==0.3.78
 langchain-google-genai==2.1.12
+langchain-text-splitters==0.3.11
 dotenv==0.9.9
 python-dotenv==1.1.1
+faiss-cpu==1.12.0
