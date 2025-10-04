@@ -1,11 +1,12 @@
-import dotenv, os
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 from langchain_google_genai import ChatGoogleGenerativeAI
 
-dotenv.load_dotenv()
-
 if not os.getenv("GOOGLE_API_KEY"):
+    print("variável de ambiente GOOGLE_API_KEY não encontrada.")
     exit(1)
-
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 print("Pressione Enter para fazer uma pergunta ou 'q' para sair: ")
