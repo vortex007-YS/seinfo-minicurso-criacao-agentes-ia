@@ -9,9 +9,9 @@ if not os.getenv("GOOGLE_API_KEY"):
     exit(1)
 
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
-print("Pressione Enter para fazer uma pergunta ou 'q' para sair: ")
+print("Digite sua pergunta ou 'sair' para encerrar: ")
 
-while (pergunta := input("user: ")) != "q":
+while (pergunta := input("user: ")) != "sair":
     messages = [{"role": "user", "content": pergunta}]
     resposta = llm.invoke(messages)
 
