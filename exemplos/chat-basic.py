@@ -11,8 +11,10 @@ if not os.getenv("GOOGLE_API_KEY"):
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 print("Digite sua pergunta ou 'sair' para encerrar: ")
 
-while (pergunta := input("user: ")) != "sair":
-    messages = [{"role": "user", "content": pergunta}]
-    resposta = llm.invoke(messages)
+messages = []
 
+while (pergunta := input("user: ")) != "sair":
+    messages.append({"role": "user", "content": pergunta})
+    resposta = llm.invoke(messages)
+    messages.append({"role": "assistant", "content": resposta.content})
     print("\n llm:", resposta.content, "\n")
