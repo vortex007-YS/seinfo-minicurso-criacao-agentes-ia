@@ -17,12 +17,18 @@ if not os.getenv("GOOGLE_API_KEY"):
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 
+# cache em memória volatiu
 
 set_llm_cache(InMemoryCache())
+
+
+# Primeira pergunta 
 
 inicio=time.time()
 resposta=llm.invoke("Tell me a joke")
 fim=time.time()
+
+# Repetição da pergunta 
 
 inicio2=time.time()
 resposta1=llm.invoke("Tell me a joke")
