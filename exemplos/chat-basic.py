@@ -13,8 +13,8 @@ print("Digite sua pergunta ou 'sair' para encerrar: ")
 
 messages = []
 
-while (pergunta := input("user: ")) != "sair":
+while (pergunta := input("👤 user: ")) != "sair":
     messages.append({"role": "user", "content": pergunta})
     resposta = llm.invoke(messages)
     messages.append({"role": "assistant", "content": resposta.content})
-    print("\n llm:", resposta.content, "\n")
+    print("✨ llm:", resposta.content)
