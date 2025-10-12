@@ -17,7 +17,7 @@ if not os.getenv("GOOGLE_API_KEY"):
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 
-# cache em memória volatiu
+# cache em Memória volátil 
 
 set_llm_cache(InMemoryCache())
 
