@@ -1,5 +1,4 @@
 import os
-os.environ["USER_AGENT"] = "langchain-agent"  # Para evitar warning da requisição
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -18,7 +17,7 @@ if not os.getenv("GOOGLE_API_KEY"):
 llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 # 1. Configura embeddings Google
-embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+embeddings = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
 
 DB_NAME = "faiss/minecraft_redstone"
 
