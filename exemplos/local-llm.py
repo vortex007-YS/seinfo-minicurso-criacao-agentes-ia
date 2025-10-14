@@ -14,7 +14,7 @@ except ImportError:
 
 
 llm = OllamaLLM(
-    model="deepseek-r1:7b",
+    model="deepseek-r1:1.5b",
     temperature=0.3,
     num_predict=256,
     think=True
