@@ -1,6 +1,6 @@
 # Para realizar esse exemplo, você precisa:
 # 1. baixar o Ollama: https://ollama.com/download
-# 2. Instale o modelo: ollama pull deepseek-r1:7b
+# 2. Instale o modelo: ollama pull deepseek-r1:1.5b
 # 3. Instale as dependências:
 # pip install langchain-ollama==0.3.10
 #
