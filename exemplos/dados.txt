@@ -1,0 +1,12 @@
+Redstone é um material no Minecraft que permite criar circuitos e mecanismos.
+Para ligar um circuito de redstone, você precisa de uma fonte de energia como uma alavanca, botão ou tocha Redstone.
+A tocha Redstone é uma fonte de energia básica que emite sinal continuamente.
+Alavancas fornecem energia constante quando na posição ligada.
+Botões fornecem energia temporária por aproximadamente 1 segundo.
+Circuitos de redstone podem ser ligados colocando pó de redstone conectando a fonte de energia ao mecanismo desejado.
+Pó de redstone transmite energia por até 15 blocos de distância.
+Repetidores de redstone podem ser usados para estender o alcance do sinal.
+Mecanismos como portas, pistões e trilhos podem ser ativados com circuitos de redstone.
+Um circuito básico consiste em: fonte de energia -> pó de redstone -> mecanismo alvo.
+Para desligar o circuito, desative a fonte de energia (desligue a alavanca ou espere o botão desativar).
+Circuitos mais complexos podem usar portas lógicas AND, OR e NOT com diferentes componentes de redstone.
