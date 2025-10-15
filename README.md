@@ -88,6 +88,41 @@ Você também pode explorar outros exemplos disponíveis na pasta `exemplos/`:
 - `tool-basic.py` - Exemplo de ferramenta básica
 - E muitos outros!
 
+## 🏆 Desafio Final
+
+Após explorar os exemplos, implemente um chatbot que combine pelo menos uma **tool** (ferramenta) e um **vector store** (banco de vetores). O objetivo é criar um agente inteligente que possa:
+
+- Responder perguntas usando conhecimento armazenado em um banco de vetores
+- Executar ações através de ferramentas personalizadas
+- Integrar ambas as funcionalidades de forma harmoniosa
+
+### 📋 Requisitos do Desafio
+1. **Modelo**: Utilizar o modelo Gemini para geração de respostas  
+2. **Vector Store**: Implementar um banco de vetores usando FAISS para armazenar e recuperar informações
+3. **Tool**: Criar pelo menos uma ferramenta customizada que o agente possa utilizar
+5. **Interface** (Opcional): Utilizar a interface já desenvolvida com Streamlit para conectar o chatbot.
+
+### 🚀 Executando o Desafio
+
+O desafio deve ser executável em uma das de duas formas:
+
+#### Opção 1: Interface Web com Streamlit (Recomendado)
+```bash
+streamlit run app.py
+```
+
+#### Opção 2: Chatbot via Terminal
+```bash
+python desafio/chatbot.py
+```
+
+### 💡 Dicas para o Desenvolvimento
+
+- Explore os exemplos na pasta `exemplos/` para entender como implementar tools e vector stores
+- Use o arquivo `app.py` como base para a interface Streamlit
+- Implemente sua lógica principal no arquivo `desafio/chatbot.py`
+- Teste diferentes combinações de ferramentas e tipos de documentos
+
 ---
 
 ## 👥 Autores
