@@ -14,12 +14,12 @@ if not os.getenv("GOOGLE_API_KEY"):
 # python.langchain.com/docs/how_to/tool_results_pass_to_model/
 @tool
 def add(a: int, b: int) -> int:
-
+    """Adds a and b."""
     return a + b
 
 @tool
 def multiply(a: int, b: int) -> int:
-    
+    """Multiply a and b."""
     return a * b
 
 tools = [add, multiply]
